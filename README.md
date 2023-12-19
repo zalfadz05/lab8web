@@ -14,7 +14,8 @@
 
 ### Menjalankan MySQL Server
 #### Untuk menjalankan MySQL Server dari menu XAMPP Contol.
-![gambar](<img width="960" alt="xampp" src="https://github.com/zalfadz05/lab8web/assets/115516617/03922c64-ff8b-47c5-8d7f-86b387d8fad7">)
+![gambar](<img width="960" alt="xampp" src="https://github.com/zalfadz05/lab8web/assets/115516617/03922c64-ff8b-47c5-8d7f-86b387d8fad7">
+)
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 #### Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 ### Membuat Database: Studi Kasus Data Barang
