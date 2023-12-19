@@ -36,7 +36,7 @@ CREATE TABLE data_barang (
     stok int(4)
 );
 ```
-![gambar](<img width="960" alt="shell2" src="https://github.com/zalfadz05/lab8web/assets/115516617/4cc80bad-d793-428e-ad96-4b81a80fd4b6">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/shell2.png)
 ### Menambahkan Data
 ```python
 INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
