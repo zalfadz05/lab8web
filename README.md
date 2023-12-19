@@ -14,12 +14,11 @@
 
 ### Menjalankan MySQL Server
 #### Untuk menjalankan MySQL Server dari menu XAMPP Contol.
-![gambar](<img width="960" alt="xampp" src="https://github.com/zalfadz05/lab8web/assets/115516617/03922c64-ff8b-47c5-8d7f-86b387d8fad7">
-)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/xampp.png)
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 #### Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser: http://localhost/phpmyadmin/
 ### Membuat Database: Studi Kasus Data Barang
-![gambar](<img width="621" alt="database" src="https://github.com/zalfadz05/lab8web/assets/115516617/50805bf2-8f12-4a70-9e36-d99dc69014b5">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/database.png)
 ### Membuat Database
 ```python
 CREATE DATABASE latihan1;
@@ -44,12 +43,12 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
-![gambar](<img width="960" alt="shell3" src="https://github.com/zalfadz05/lab8web/assets/115516617/20a52eb8-1939-45ae-9488-1ae85435a577">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/shell3.png)
 ### Membuat Program CRUD
 #### Buat folder lab8_php_database pada root directory web server (c:\xampp\htdocs)
-![gambar](<img width="960" alt="7" src="https://github.com/zalfadz05/lab8web/assets/115516617/65cb145e-24e2-42e8-8090-f82b825d9407">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/7.png)
 #### Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
-![gambar](<img width="960" alt="6" src="https://github.com/zalfadz05/lab8web/assets/115516617/2a0b1fdf-2f9b-4abf-a722-31051ec29a26">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/6.png)
 ### Membuat file koneksi database
 #### Buat file baru dengan nama ```koneksi.php```
 ```python
@@ -67,7 +66,7 @@ if ($conn == false)
 ?>
 ```
 #### Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan koneksi berhasil, uncomment pada perintah ```echo “koneksi berhasil”;```
-![gambar](<img width="960" alt="1" src="https://github.com/zalfadz05/lab8web/assets/115516617/635469b0-8376-4f91-89e6-4c6d311a408e">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/1.png)
 ### Membuat file index untuk menampilkan data (Read)
 #### Buat file baru dengan nama ```index.php```
 ```python
@@ -128,7 +127,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](<img width="960" alt="5" src="https://github.com/zalfadz05/lab8web/assets/115516617/1291352f-45c1-4258-bcdf-4e05bfa09fee">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/5.png)
 ### Menambah Data (Create)
 #### Buat file baru dengan nama ```tambah.php```
 ```python
@@ -189,7 +188,7 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![gambar](<img width="960" alt="4" src="https://github.com/zalfadz05/lab8web/assets/115516617/c30cb387-978a-4f90-b7f5-07556abd316d">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/4.png)
 ### Mengubah Data (Update)
 #### Buat file baru dengan nama ```ubah.php```
 ```python
@@ -299,7 +298,7 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![gambar](<img width="960" alt="3" src="https://github.com/zalfadz05/lab8web/assets/115516617/796bbfea-aa05-4e8a-a5d4-481b61dc23c2">)
+![gambar](https://github.com/zalfadz05/lab8web/blob/main/3.png)
 ### Menghapus Data (Delete)
 #### Buat file baru dengan nama ```hapus.php```
 ```python
